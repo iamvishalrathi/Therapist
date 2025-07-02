@@ -4,7 +4,7 @@ import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
   return (
-    <section className="relative h-[600px] w-full overflow-hidden flex items-center justify-center">
+    <section className="relative h-[600px] w-full overflow-hidden flex items-center justify-center" style={{ backgroundColor: '#F3F0E8' }}>
       <div 
         className="absolute bg-cover bg-center bg-no-repeat"
         style={{ 
@@ -26,8 +26,9 @@ const HeroSection = () => {
       />
       
       {/* Logo in top left */}
-      <div className="absolute top-8 left-8 z-20">
+      <div className="absolute top-8 left-8 z-20 flex items-center space-x-4">
         <img src={logo} alt="Dr. Serena Blake Logo" className="h-16 w-16" />
+        <span className="font-serif text-xl text-foreground bg-white/80 px-4 py-2 rounded shadow">Dr. Serena Blake, PsyD</span>
       </div>
       
       <div className="relative z-10 flex h-full items-center justify-center">
