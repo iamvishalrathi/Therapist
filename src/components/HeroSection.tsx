@@ -12,7 +12,8 @@ const HeroSection = () => {
       </div>
       
       {/* Hero image section */}
-      <section className="absolute inset-0">
+      <section className="bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroImage})`, zIndex: 1 }}>
         <div className="relative z-10 flex h-full items-center justify-center">
           <div className="max-w-4xl px-8 text-center">
             <h1 className="mb-6 font-serif text-4xl font-medium leading-tight text-text-light md:text-5xl lg:text-6xl">
