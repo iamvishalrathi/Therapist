@@ -35,11 +35,10 @@ const HeroSection = () => {
         />
         <div className="relative z-10 flex h-full items-center justify-center">
           <div className="text-center space-y-20">
-            <h1 className="mb-6 font-serif text-4xl font-medium leading-tight text-text-light md:text-5xl lg:text-6xl">
-              Psychological Care for
-              <br />
-              Change, Insight, and Well-Being
-            </h1>
+            <div className="flex flex-col space-y-10 mb-6 font-serif text-4xl font-medium leading-tight text-text-light md:text-5xl lg:text-6xl">
+              <span>Psychological Care for</span>
+              <span>Change, Insight, and Well-Being</span>
+            </div>
 
             <p className="mb-8 font-sans text-lg text-text-light/90 md:text-xl">
               Offering individual psychotherapy for adults via telehealth in Michigan and most U.S. states through PSYPACT participation
