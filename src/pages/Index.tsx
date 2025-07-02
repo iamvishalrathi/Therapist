@@ -7,6 +7,7 @@ import AvailabilityBanner from "@/components/AvailabilityBanner";
 import FaqSection from "@/components/FaqSection";
 import QuoteSection from "@/components/QuoteSection";
 import Footer from "@/components/Footer";
+import ContactForm from "@/components/ContactForm";
 
 const Index = () => {
   return (
@@ -19,7 +20,7 @@ const Index = () => {
       <AvailabilityBanner />
       <FaqSection />
       <QuoteSection />
-      
+      <ContactForm/>
       <Footer />
     </div>
   );
