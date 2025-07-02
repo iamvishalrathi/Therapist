@@ -17,8 +17,9 @@ const Index = () => {
       <AreasOfFocusSection />
       <RatesSection />
       <AvailabilityBanner />
-      <QuoteSection />
       <FaqSection />
+      <QuoteSection />
+      
       <Footer />
     </div>
   );
