@@ -15,8 +15,16 @@ const HeroSection = () => {
       </div>
       
       {/* Hero image section */}
-      <section className="bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})`, zIndex: 1 }}>
+      <section
+        className="bg-cover bg-center bg-no-repeat absolute"
+        style={{
+          backgroundImage: `url(${heroImage})`,
+          zIndex: 1,
+          width: '90%',
+          height: '70%',
+          top: '20%',
+        }}
+      >
         <div className="relative z-10 flex h-full items-center justify-center">
           <div className="max-w-4xl px-8 text-center">
             <h1 className="mb-6 font-serif text-4xl font-medium leading-tight text-text-light md:text-5xl lg:text-6xl">
