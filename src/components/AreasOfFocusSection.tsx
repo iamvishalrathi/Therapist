@@ -5,19 +5,19 @@ import familyIcon from "@/assets/family-icon.jpg";
 const AreasOfFocusSection = () => {
   const areas = [
     {
-      title: "Therapy for Healthcare Providers and Students",
-      description: "Specialized support for medical professionals, nurses, and healthcare students facing burnout, compassion fatigue, and the unique stressors of healthcare environments. Understanding the demands of your profession while providing tools for resilience and self-care.",
+      title: "Anxiety & Stress Management",
+      description: "Personalized strategies to help you manage anxiety, reduce stress, and build resilience using evidence-based approaches like CBT and mindfulness.",
       image: healthcareIcon
     },
     {
-      title: "Therapy for Trauma and Grief",
-      description: "Compassionate care for individuals processing traumatic experiences, loss, and grief. Using evidence-based approaches to help you heal, integrate difficult experiences, and reclaim your sense of safety and meaning in life.",
-      image: traumaIcon
+      title: "Relationship Counseling",
+      description: "Support for couples and individuals to strengthen communication, resolve conflicts, and foster healthier, more fulfilling relationships.",
+      image: familyIcon
     },
     {
-      title: "Therapy for Second Generation Individuals in Immigrant Families",
-      description: "Culturally sensitive therapy for those navigating the complexities of growing up between cultures. Addressing identity formation, family dynamics, generational differences, and the unique challenges of bicultural living.",
-      image: familyIcon
+      title: "Trauma Recovery",
+      description: "Compassionate care to help you heal from trauma, regain a sense of safety, and move forward with confidence.",
+      image: traumaIcon
     }
   ];
 

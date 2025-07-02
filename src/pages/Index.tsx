@@ -4,6 +4,7 @@ import PhilosophySection from "@/components/PhilosophySection";
 import AreasOfFocusSection from "@/components/AreasOfFocusSection";
 import RatesSection from "@/components/RatesSection";
 import AvailabilityBanner from "@/components/AvailabilityBanner";
+import FaqSection from "@/components/FaqSection";
 import QuoteSection from "@/components/QuoteSection";
 import Footer from "@/components/Footer";
 
@@ -16,6 +17,7 @@ const Index = () => {
       <AreasOfFocusSection />
       <RatesSection />
       <AvailabilityBanner />
+      <FaqSection />
       <QuoteSection />
       <Footer />
     </div>

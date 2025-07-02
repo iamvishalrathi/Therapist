@@ -9,10 +9,7 @@ const PhilosophySection = () => {
           
           <div className="max-w-3xl mx-auto">
             <p className="font-sans text-base text-muted-foreground leading-relaxed md:text-lg">
-              Many people seek therapy when facing life transitions, relationship challenges, anxiety, depression, 
-              trauma, or simply when they feel stuck and want to make positive changes. Therapy provides a 
-              confidential space to process experiences, gain new perspectives, and develop practical tools 
-              for managing life's challenges.
+              With eight years of experience and over 500 sessions, I blend evidence-based approaches with compassion to help you overcome anxiety, strengthen relationships, and heal from trauma. My goal is to support you in building resilience and living a more fulfilling life.
             </p>
           </div>
         </div>

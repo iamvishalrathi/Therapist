@@ -14,12 +14,12 @@ const RatesSection = () => {
               </h3>
               <div className="space-y-2 font-sans text-primary-foreground/90">
                 <div className="flex justify-between items-center">
-                  <span>Individual Therapy Session:</span>
+                  <span>Individual Session:</span>
                   <span className="font-medium">$200</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span>Psychodiagnostic Evaluation:</span>
-                  <span className="font-medium">$375</span>
+                  <span>Couples Session:</span>
+                  <span className="font-medium">$240</span>
                 </div>
               </div>
             </div>
@@ -29,20 +29,14 @@ const RatesSection = () => {
                 Insurance
               </h3>
               <div className="font-sans text-primary-foreground/90 space-y-2">
-                <p>Currently accepting:</p>
-                <ul className="space-y-1">
-                  <li>• Blue Cross Blue Shield</li>
-                  <li>• Aetna</li>
-                  <li>• Private Pay</li>
-                </ul>
+                <p>No, but a superbill is provided for self-submission.</p>
               </div>
             </div>
           </div>
           
           <div className="pt-6 border-t border-primary-foreground/20">
             <p className="font-sans text-sm text-primary-foreground/80">
-              Good Faith Estimate and insurance verification available upon request. 
-              I believe in transparent pricing and will work with you to understand your benefits.
+              24-hour cancellation notice required. Superbills available for insurance self-submission.
             </p>
           </div>
         </div>

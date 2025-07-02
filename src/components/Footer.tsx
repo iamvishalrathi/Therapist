@@ -7,22 +7,21 @@ const Footer = () => {
         <div className="max-w-4xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <h3 className="font-serif text-2xl font-medium text-foreground">
-              Jennifer Hahm, Ph.D., Licensed Psychologist
+              Dr. Serena Blake, PsyD (Clinical Psychologist)
             </h3>
             
             <div className="space-y-2 font-sans text-muted-foreground">
               <p>
                 <a 
-                  href="mailto:jennifer@drjenniferhahm.com" 
+                  href="mailto:serena@blakepsychology.com" 
                   className="hover:text-primary transition-colors"
                 >
-                  jennifer@drjenniferhahm.com
+                  serena@blakepsychology.com
                 </a>
               </p>
-              <p>Phone: (248) 899-8780</p>
-              <p>Fax: (248) 579-8190</p>
+              <p>Phone: (323) 555-0192</p>
               <address className="not-italic">
-                28975 Haggerty Rd, Novi, MI 48377
+                1287 Maplewood Drive, Los Angeles, CA 90026
               </address>
             </div>
           </div>
@@ -45,7 +44,7 @@ const Footer = () => {
           
           <div className="pt-6 border-t border-border">
             <p className="font-sans text-xs text-muted-foreground">
-              © 2025 Jennifer Hahm Ph.D. Psychological Services, PLLC. All rights reserved.
+              © 2025 Serena Blake Psychology. All rights reserved.
             </p>
           </div>
         </div>

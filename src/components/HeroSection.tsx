@@ -27,7 +27,7 @@ const HeroSection = () => {
       
       {/* Logo in top left */}
       <div className="absolute top-8 left-8 z-20">
-        <img src={logo} alt="Jennifer Hahm Ph.D. Logo" className="h-16 w-16" />
+        <img src={logo} alt="Dr. Serena Blake Logo" className="h-16 w-16" />
       </div>
       
       <div className="relative z-10 flex h-full items-center justify-center">
