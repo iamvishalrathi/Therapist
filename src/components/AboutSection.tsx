@@ -6,11 +6,11 @@ const AboutSection = () => {
       <div className="container mx-auto px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center">
           <div className="space-y-6">
-            <h2 className="font-serif text-3xl font-medium text-foreground lg:text-4xl">
+            <h2 className="font-serif text-3xl font-medium text-foreground lg:text-4xl text-[#7E7E6B]">
               About Dr. Serena Blake
             </h2>
             
-            <div className="space-y-4 font-sans text-base leading-relaxed text-muted-foreground lg:text-lg">
+            <div className="space-y-4 font-sans text-base leading-relaxed text-muted-foreground lg:text-lg text-[#7E7E6B]">
               <p>
                 Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in Los Angeles, CA, with eight years of experience and over 500 client sessions. She blends evidence-based approaches—like cognitive-behavioral therapy and mindfulness—with compassionate, personalized care to help you overcome anxiety, strengthen relationships, and heal from trauma.
               </p>
