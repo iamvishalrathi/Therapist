@@ -22,33 +22,33 @@ const AreasOfFocusSection = () => {
   ];
 
   return (
-    <section className="py-section" style={{ background: '#F3F0E8', borderTop: '1px solid #000' }}>
-      <div className="container mx-auto px-6">
-        <div className="mb-12 text-center">
-          <h2 className="font-serif text-3xl font-medium text-foreground lg:text-4xl">
+    <section className="py-24" style={{ background: '#F3F0E8', borderTop: '1.5px solid #000' }}>
+      <div className="container mx-auto px-8 max-w-7xl">
+        <div className="mb-20 text-center">
+          <h2 className="font-serif text-5xl font-bold text-foreground lg:text-6xl">
             Areas of Focus
           </h2>
         </div>
-        
-        <div className="grid gap-12 md:grid-cols-3 md:gap-8">
+
+        <div className="grid gap-20 md:grid-cols-3 md:gap-16">
           {areas.map((area, index) => (
-            <div key={index} className="text-center space-y-6">
+            <div key={index} className="text-center space-y-10">
               <div className="mx-auto">
-                <div className="mx-auto h-56 w-56 overflow-hidden rounded-full shadow-lg border-2 border-black/20 bg-white">
-                  <img 
-                    src={area.image} 
+                <div className="mx-auto h-72 w-72 overflow-hidden rounded-full shadow-2xl bg-white">
+                  <img
+                    src={area.image}
                     alt={area.title}
                     className="h-full w-full object-cover"
                   />
                 </div>
               </div>
-              
-              <div className="space-y-4">
-                <h3 className="font-serif text-xl font-medium text-foreground">
+
+              <div className="space-y-6">
+                <h3 className="font-serif text-2xl font-bold text-foreground">
                   {area.title}
                 </h3>
-                
-                <p className="font-sans text-sm leading-relaxed text-muted-foreground">
+
+                <p className="font-sans text-lg leading-relaxed text-muted-foreground">
                   {area.description}
                 </p>
               </div>
