@@ -22,7 +22,7 @@ const AreasOfFocusSection = () => {
   ];
 
   return (
-    <section className="py-section bg-background">
+    <section className="py-section" style={{ background: '#F3F0E8', borderTop: '1px solid #000' }}>
       <div className="container mx-auto px-6">
         <div className="mb-12 text-center">
           <h2 className="font-serif text-3xl font-medium text-foreground lg:text-4xl">
@@ -34,7 +34,7 @@ const AreasOfFocusSection = () => {
           {areas.map((area, index) => (
             <div key={index} className="text-center space-y-6">
               <div className="mx-auto">
-                <div className="mx-auto h-40 w-40 overflow-hidden rounded-full shadow-md">
+                <div className="mx-auto h-56 w-56 overflow-hidden rounded-full shadow-lg border-2 border-black/20 bg-white">
                   <img 
                     src={area.image} 
                     alt={area.title}
