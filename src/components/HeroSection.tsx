@@ -6,9 +6,12 @@ const HeroSection = () => {
   return (
     <section className="relative h-[800px] w-full overflow-hidden flex items-center justify-center" style={{ backgroundColor: '#F3F0E8' }}>
       {/* Logo in top left */}
-      <div className="absolute top-8 left-8 z-20 flex items-center space-x-4">
+      <div className="absolute top-8 left-8 z-20 flex items-center">
         <img src={logo} alt="Dr. Serena Blake Logo" className="h-16 w-16" />
-        <span className="font-serif text-xl text-foreground bg-white/80 px-4 py-2 rounded shadow">Dr. Serena Blake, PsyD</span>
+        <div className="flex flex-col">
+          <span className="font-serif text-xl px-4 text-[#193B29]">Dr. Serena Blake, PsyD</span>
+          <span className="font-serif text-xl px-4 text-[#193B29]">Clinical Psychologist</span>
+        </div>
       </div>
       
       {/* Hero image section */}
