@@ -11,13 +11,8 @@ const HeroSection = () => {
         <span className="font-serif text-xl text-foreground bg-white/80 px-4 py-2 rounded shadow">Dr. Serena Blake, PsyD</span>
       </div>
       
-      {/* Hero image */}
-      <div>
-        <img
-          src={heroImage}
-          alt="Ocean view with a person meditating"
-          className="h-full w-full object-cover"
-        />
+      {/* Hero image section */}
+      <section className="absolute inset-0">
         <div className="relative z-10 flex h-full items-center justify-center">
           <div className="max-w-4xl px-8 text-center">
             <h1 className="mb-6 font-serif text-4xl font-medium leading-tight text-text-light md:text-5xl lg:text-6xl">
@@ -38,7 +33,7 @@ const HeroSection = () => {
             </Button>
           </div>
         </div>
-      </div>
+      </section>
     </section>
   );
 };
