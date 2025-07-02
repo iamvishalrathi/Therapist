@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-ocean.jpg";
+import heroVideo from "@/assets/hero-ocean.mp4";
 import logo from "@/assets/logo.png";
 
 const HeroSection = () => {
@@ -14,17 +14,25 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Hero image section */}
+      {/* Hero video section */}
       <section
-        className="bg-cover bg-center bg-no-repeat absolute"
+        className="absolute overflow-hidden"
         style={{
-          backgroundImage: `url(${heroImage})`,
           zIndex: 1,
           width: '90%',
           height: '70%',
           top: '20%',
         }}
       >
+        <video
+          className="absolute inset-0 w-full h-full object-cover"
+          src={heroVideo}
+          autoPlay
+          loop
+          muted
+          playsInline
+          style={{ zIndex: 1 }}
+        />
         <div className="relative z-10 flex h-full items-center justify-center">
           <div className="max-w-4xl px-8 text-center">
             <h1 className="mb-6 font-serif text-4xl font-medium leading-tight text-text-light md:text-5xl lg:text-6xl">
