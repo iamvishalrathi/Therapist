@@ -46,7 +46,8 @@ const HeroSection = () => {
 
             <Button
               size="lg"
-              className="bg-primary hover:bg-primary/90 text-primary-foreground font-sans font-medium px-8 py-4 text-lg tracking-wide"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground font-sans font-medium px-16 py-5 text-lg tracking-wide rounded-full"
+              style={{ borderRadius: '999px', paddingLeft: '2.5rem', paddingRight: '2.5rem', paddingTop: '1.25rem', paddingBottom: '1.25rem', minWidth: '320px', minHeight: '64px' }}
             >
               SCHEDULE A CONSULTATION
             </Button>
